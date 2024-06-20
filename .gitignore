@@ -1,5 +1,7 @@
 data/.DS_Store
 data/west_nile/.DS_Store
+./data/.DS_Store
+./data/west_nile/.DS_Store
 .DS_Store
 unique_values_output/spray_unique_values.csv
 unique_values_output/train_unique_values.csv
@@ -9,3 +11,4 @@ Bearbeitung.py
 data/.DS_Store
 data/west_nile/.DS_Store
 .DS_Store
+data/test_cleaned.csv
