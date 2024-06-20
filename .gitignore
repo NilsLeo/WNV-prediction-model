@@ -1,0 +1,7 @@
+data/.DS_Store
+data/west_nile/.DS_Store
+.DS_Store
+unique_values_output/spray_unique_values.csv
+unique_values_output/train_unique_values.csv
+unique_values_output/test_unique_values.csv
+unique_values_output/weather_unique_values.csv
