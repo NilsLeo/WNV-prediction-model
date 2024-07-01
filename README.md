@@ -200,7 +200,7 @@ It is believed that hot and dry conditions are more favorable for West Nile viru
 
   - Elev: 612 ft. above sea level
 
-##### Map Data
+##### Map Data£
 
 The map files `mapdata_copyright_openstreetmap_contributors.rds` and `mapdata_copyright_openstreetmap_contributors.txt` are from Open Streetmap and are primarily provided for use in visualizations (but you are allowed to use them in your models if you wish).Here's [an example](https://www.kaggle.com/users/3716/davidchudzicki/predict-west-nile-virus/where-are-the-measurement-points)  using `mapdata_copyright_openstreetmap_contributors.rds`, and here's [one](https://www.kaggle.com/users/3716/davidchudzicki/predict-west-nile-virus/show-map-image-in-python)  using `mapdata_copyright_openstreetmap_contributors.txt`.
 
