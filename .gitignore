@@ -11,4 +11,9 @@ Bearbeitung.py
 data/.DS_Store
 data/west_nile/.DS_Store
 .DS_Store
-data/test_cleaned.csv
+data/cleaned_test.csv
+data/cleaned_spray.csv
+data/cleaned_train.csv
+data/cleaned_weather.csv
+data/unique_values_output
+raw/*

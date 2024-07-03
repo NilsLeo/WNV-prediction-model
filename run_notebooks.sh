@@ -14,10 +14,12 @@ notebooks=(
     "2_Project_Understanding.ipynb"
     "3_Data_Understanding.ipynb"
     "4_Data_Preparation.ipynb"
-    "4-5(split further).ipynb"
     "5_Modeling.ipynb"
     "6_Evaluation.ipynb"
 )
+
+# Ensure the raw directory exists
+mkdir -p ../raw
 
 # Loop through each notebook and execute it
 for notebook in "${notebooks[@]}"; do
@@ -27,6 +29,9 @@ for notebook in "${notebooks[@]}"; do
         echo "Error executing $notebook. Exiting."
         exit 1
     fi
+    # Convert the executed notebook to a Python script
+    echo "Converting $notebook to Python script..."
+    jupyter nbconvert --to script "$notebook" --output "../raw/$(basename "$notebook" .ipynb)"
 done
 
-echo "All notebooks executed successfully."
+echo "All notebooks executed and converted successfully."
