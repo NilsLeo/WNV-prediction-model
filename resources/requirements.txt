@@ -4,4 +4,3 @@ pandas
 scikit-learn
 scipy
 seaborn
-i18naddress
