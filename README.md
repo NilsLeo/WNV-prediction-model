@@ -259,3 +259,21 @@ https://github.com/JeffreyPrasetio/DSI-23-Group-Project
 https://github.com/benjamin-awd/WNV-Prediction
 
 TODOS
+- [ ] Look into more precise methods for determining types of missing dATA (MNAR, MCAR, MAR)
+- [ ] Handle Missing VALUE Time#
+- [ ] Understand Atmospheric Pressure, etc and their respective units to ensure that the outliers arent unrealistic 
+- [ ] Catergorical Outlier detection 
+- [ ] handle nan outliers
+- [ ] check blackboard for  code inspiration
+- [ ] "Sowie Vergleich mit einem einfachen alternativen Ansatz, der eine Baseline-Performance bei der Bewertung vorgibt" - Aufgabenstellung - was damit gemeint
+
+
+Final TODOS
+- [ ] Remove unused columns
+- [ ] Remove generated comments
+- [ ] No empty cells 
+- [ ] https://github.com/benjamin-awd/WNV-Prediction/blob/main/1.%20Data%20Cleaning.ipynb
+- [ ] Consolidate Google drive to git repo
+- [ ] Folllow Crisp DM as outlioned in the Course
+- [ ] Remove unnecessary imports
+- [ ] See GH (Starred) and Kaggle for inspiration
