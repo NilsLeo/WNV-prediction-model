@@ -285,30 +285,41 @@ Final TODOS
 Aktueller Stand
 
 1. CRISP-DM: Projektverständnis
-Haben wir schon in Stichpunkten festgehalten, muss nur noch für den Bericht in Fließtext umgewandelt werden.
+
+  Haben wir schon in Stichpunkten festgehalten, muss nur noch für den Bericht in Fließtext umgewandelt werden.
+
 2. CRISP-DM: Datenverständnis
-Ebenfalls fast fertig, wir planen jedoch, noch einige Visualisierungen hinzuzufügen.
+
+  Ebenfalls fast fertig, wir planen jedoch, noch einige Visualisierungen hinzuzufügen.
+
 3. CRISP-DM: Datenvorbereitung
-Dies ist der aufwändigste Teil unserer Arbeit.
-Wir haben schon einiges geschafft.
-Die Behandlung der Fehlenden Werte könnte noch besser sein
-Die Prüfung nach Ausreißern sollte für weitere Attribute noch gemacht werden
-In einem iterativen Prozess wollen wir schauen, welche weiteren Features wir extrahieren oder entfernen können, um unser Modell weiter zu optimieren.
+
+  - Dies ist der aufwändigste Teil unserer Arbeit.
+  - Wir haben schon einiges geschafft.
+  - Die Behandlung der Fehlenden Werte könnte noch besser sein
+  - Die Prüfung nach Ausreißern sollte für weitere Attribute noch gemacht werden
+  - In einem iterativen Prozess wollen wir schauen, welche weiteren Features wir extrahieren oder entfernen können, um unser Modell weiter zu optimieren.
+
 4. CRISP-DM: Modellierung
-Wir verwenden Logistische Regression, Entscheidungsbäume und Random Forests für unsere Modelle. Diese funktionieren schon einigermaßen
+  - Wir verwenden Logistische Regression, Entscheidungsbäume und Random Forests für unsere Modelle. Diese funktionieren schon einigermaßen
+
 5. CRISP-DM: Evaluation
-Muss noch durchgeführt werden.
+
+  - Muss noch durchgeführt werden.
+
 Weiteres Vorgehen
 
   - Einige Zellen im Jupyter Notebook sind noch nicht richtig angeordnet und müssen umgestellt werden, damit sie besser zum CRISP-DM Prozess passen.
   - Refactoring und Verbesserung der Codequalität.
   - Im Bereich Datenverständnis weitere Visualisierungen hinzufügen.
   - Prüfen, ob es bessere Features gibt, die noch extrahiert werden können.
+
 Fragen
 
-Kann unser Code zwischen der Projektpräsentation und dem Projektbericht noch angepasst werden, um eventuell bessere Ergebnisse bei der Modellierung zu erzielen?
-Wie viele Techniken aus den Vorlesungsfolien müssen wir übernehmen? Reicht es aus, mit Fachwissen zu argumentieren, warum einige Features entfernt wurden, oder müssen wir beispielsweise den X^2 Test verwenden, um Unabhängigkeit nachzuweisen? Welche Techniken aus den Folien sind unbedingt erforderlich?
-Wie streng müssen wir uns an den CRISP-DM Prozess halten? Ist es zum Beispiel in der Modellierungsphase möglich, weitere Features zu extrahieren oder eine Spalte zu entfernen, oder müssen wir die Phasen genau einhalten?
+- Kann unser Code zwischen der Projektpräsentation und dem Projektbericht noch angepasst werden, um eventuell bessere Ergebnisse bei der Modellierung zu erzielen?
+- Wie viele Techniken aus den Vorlesungsfolien müssen wir übernehmen? Reicht es aus, mit Fachwissen zu argumentieren, warum einige Features entfernt wurden, oder müssen wir beispielsweise den X^2 Test verwenden, um Unabhängigkeit nachzuweisen? - Welche Techniken aus den Folien sind unbedingt erforderlich?
+- Wie streng müssen wir uns an den CRISP-DM Prozess halten? Ist es zum Beispiel in der Modellierungsphase möglich, weitere Features zu extrahieren oder eine Spalte zu entfernen, oder müssen wir die Phasen genau einhalten?
+
 Sprechstunde
 
 Ja, wir möchten gerne eine Sprechstunde in Anspruch nehmen, um sicherzustellen, dass unser Code Ihren Anforderungen entspricht.
