@@ -17,3 +17,5 @@ data/cleaned_train.csv
 data/cleaned_weather.csv
 data/unique_values_output
 raw/*
+models/*
+./models/*
