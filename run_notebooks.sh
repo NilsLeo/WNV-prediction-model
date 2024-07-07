@@ -1,22 +1,16 @@
 #!/bin/bash
 
-# Define the list of notebooks to execute in order
-
 # Move to the directory where the script is located
 cd "$(dirname "$0")" || exit 1
 
-# Your script commands go here
+# Display the current directory
 echo "Now in the script's directory: $(pwd)"
 
-cd ./notebooks
-notebooks=(
-    "1_Einleitung.ipynb"
-    "2_Project_Understanding.ipynb"
-    "3_Data_Understanding.ipynb"
-    "4_Data_Preparation.ipynb"
-    "5_Modeling.ipynb"
-    "6_Evaluation.ipynb"
-)
+# Change to the notebooks directory
+cd ./notebooks || exit 1
+
+# Dynamically define the list of notebooks to execute based on the existing .ipynb files
+notebooks=($(ls *.ipynb | sort))
 
 # Ensure the raw directory exists
 mkdir -p ../raw

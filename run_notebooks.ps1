@@ -7,15 +7,8 @@ Write-Host "Now in the script's directory: $(Get-Location)"
 # Change to the notebooks directory
 Set-Location -Path "./notebooks"
 
-# Define the list of notebooks to execute in order
-$notebooks = @(
-    "1_Einleitung.ipynb",
-    "2_Project_Understanding.ipynb",
-    "3_Data_Understanding.ipynb",
-    "4_Data_Preparation.ipynb",
-    "5_Modeling.ipynb",
-    "6_Evaluation.ipynb"
-)
+# Get all Jupyter notebooks in the directory
+$notebooks = Get-ChildItem -Filter *.ipynb | Sort-Object Name | Select-Object -ExpandProperty Name
 
 # Ensure the raw directory exists
 $rawPath = "../raw"
