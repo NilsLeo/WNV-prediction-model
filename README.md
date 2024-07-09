@@ -259,15 +259,17 @@ https://github.com/JeffreyPrasetio/DSI-23-Group-Project
 https://github.com/benjamin-awd/WNV-Prediction
 
 TODOS
+- [ ] Add Correlation matrix
 - [ ] Check if Determination of Missing Value Types (MNAR, MCAR, MAR) is correct? - Understand used method
+- [ ] Add Naive Bayes
 - [ ] Handle Missing VALUE Time
+- [ ] Check submission csv
 - [ ] Understand Atmospheric Pressure, etc and their respective units to ensure that the outliers arent unrealistic 
 - [ ] check blackboard for  code inspiration
 - [ ] Compare with other Groups
 - [ ] In addition to using domain knowledge, use correlation matrix as reason for data selection
-- [ ] Check submission csv
 - [ ] Merge with spray?
-- [ ] Add Naive Bayes
+
 
 
 Final TODOS
