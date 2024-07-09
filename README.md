@@ -260,6 +260,9 @@ https://github.com/benjamin-awd/WNV-Prediction
 
 TODOS
 - [ ] Add Correlation matrix
+- [ ] remove NaNs
+
+
 - [ ] Check if Determination of Missing Value Types (MNAR, MCAR, MAR) is correct? - Understand used method
 - [ ] Add Naive Bayes
 - [ ] Handle Missing VALUE Time
