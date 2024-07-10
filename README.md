@@ -260,13 +260,9 @@ https://github.com/benjamin-awd/WNV-Prediction
 
 TODOS
 
-- [ ] Check submission csv
-- [ ] Merge with spray?
-- [ ] merging process? 
 
-- [ ] Make sure all of code works
-– [ ] Mental "presentation" to see if it all works tommorow
-
+- [ ] add submission csv
+- [ ] Merge with spray? - add spray times to final csv -why isnt this being done on gh?
 - add cross validation
 - [ ] Handle Missing VALUE Time
 - [ ] check blackboard for  code inspiration
