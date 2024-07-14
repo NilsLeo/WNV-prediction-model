@@ -261,10 +261,11 @@ https://github.com/benjamin-awd/WNV-Prediction
 TODOS
 
 
-- [ ] add submission csv
-- [ ] Merge with spray? - add spray times to final csv -why isnt this being done on gh?
-- add cross validation
-- [ ] Handle Missing VALUE Time
+- [ ] handle preciptotal - currently deleting
+- [ ] PULL
+
+
+- [ ] add cross validation
 - [ ] check blackboard for  code inspiration
 - [ ] Compare with other Groups
 
