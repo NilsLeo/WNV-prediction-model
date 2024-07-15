@@ -8,3 +8,4 @@ geopy
 seaborn
 matplotlib
 statsmodels
+shapely
