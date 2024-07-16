@@ -22,3 +22,5 @@ models/*
 
 ./data/cleaned_test_encoded.csv
 ./data/cleaned_train_encoded.csv
+data/cleaned_test_encoded.csv
+data/cleaned_train_encoded.csv
