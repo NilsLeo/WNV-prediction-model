@@ -47,8 +47,8 @@ TODOS
 
 
 - [ ] handle preciptotal - currently deleting
-- [ ] PULL
-
+- [ ] Fitting Graph
+- [ ] Learning Curve
 
 - [ ] add cross validation
 - [ ] check blackboard for  code inspiration
